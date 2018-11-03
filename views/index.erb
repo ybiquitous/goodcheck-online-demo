@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Goodcheck Online Demo</title>
+    <style>
+      #test {
+        font-size: 1.25rem;
+        padding: 0.2em 2em;
+      }
+      #editor {
+        position: absolute;
+        top: 200px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Goodcheck Online Demo</h1>
+    <ul>
+      <li><a href="https://github.com/sider/goodcheck#readme" target="_blank">README</a></li>
+      <li><a href="https://github.com/sider/goodcheck/blob/master/sample.yml" target="_blank">Sample</a></li>
+    </ul>
+    <div><button id="test">Test</button></div>
+    <div id="editor"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.1/ace.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.1/mode-yaml.js" defer></script>
+    <script src="/app.js" defer></script>
+  </body>
+</html>
