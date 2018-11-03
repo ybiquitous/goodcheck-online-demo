@@ -1,6 +1,6 @@
 # Goodcheck Online Demo
 
-See <https://github.com/sider/goodcheck>.
+What is Goodcheck? Visit the [repository](https://github.com/sider/goodcheck).
 
 ## Install
 
