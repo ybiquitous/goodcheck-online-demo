@@ -21,7 +21,7 @@ document.querySelector("#test").addEventListener("click", async () => {
       alert(error);
       break;
     default:
-      alert("Error");
+      alert("Ooops!");
       break;
   }
 });
